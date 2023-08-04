@@ -84,7 +84,7 @@
     transition: all 0.3s;
 }
 .port__item .img:hover img {
-    filter: saturate(100%)
+    filter: saturate(100%);
 }
 .port__item .title {
     font-size: 1.5rem;
@@ -104,6 +104,10 @@
     text-align: center;
     padding: 0.625rem 1.5rem;
     margin-top: 1.5rem;
+}
+.port__item .site:hover {
+    background-color: var(--black100);
+    color: var(--white);
 }
 
 @media (max-width: 800px){
