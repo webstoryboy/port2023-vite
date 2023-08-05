@@ -60,7 +60,7 @@
 .intro__text:hover .img {
     filter: grayscale(0);
 }
-.intro_lines {
+.intro__lines {
     width: 100%;
 }
 .intro__lines .line {
